@@ -1,0 +1,6 @@
+defaults:
+  - base: base
+  - app: development
+  - _self_
+
+log_level: "INFO"

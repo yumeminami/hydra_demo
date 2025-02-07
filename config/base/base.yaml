@@ -1,0 +1,4 @@
+# @package _global_
+app_name: "MyAwesomeApp"
+version: "1.0.0"
+description: "This is my awesome application"

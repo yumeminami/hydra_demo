@@ -1,0 +1,11 @@
+# @package _global_
+defaults:
+  - /db: mysql
+
+app:
+  name: ${app_name}
+  debug: false
+  cache_size: 1024
+  features:
+    - analytics
+    - monitoring

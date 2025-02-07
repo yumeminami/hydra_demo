@@ -1,0 +1,4 @@
+# @package _global_
+db:
+  type: sqlite
+  path: /data/database.db

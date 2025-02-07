@@ -1,0 +1,11 @@
+# @package _global_
+defaults:
+  - /db: sqlite
+
+app:
+  name: ${app_name}
+  debug: true
+  cache_size: 256
+  features:
+    - debug_toolbar
+    - hot_reload

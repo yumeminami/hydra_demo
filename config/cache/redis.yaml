@@ -1,0 +1,6 @@
+# @package _global_
+cache:
+  type: redis
+  host: ${oc.env:REDIS_HOST,localhost}
+  port: ${oc.env:REDIS_PORT,6379}
+  db: ${oc.env:REDIS_DB,0}
